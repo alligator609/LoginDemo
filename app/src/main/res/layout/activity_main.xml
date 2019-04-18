@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alligator.logindemo.MainActivity"
+    android:background="@drawable/gradient"
+    >
+   <LinearLayout
+       android:layout_marginTop="50dp"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textAlignment="center"
+           android:text="WELLCOME"
+           android:textColor="#a3bad2"
+           android:textSize="50dp"/>
+       <EditText
+           android:drawableLeft="@drawable/mouse_action_name"
+           android:background="#435863"
+           android:id="@+id/userrname"
+           android:layout_marginLeft="80dp"
+           android:layout_marginTop="100dp"
+           android:layout_width="200dp"
+           android:layout_height="50dp"
+           android:hint="User Name"
+           />
+
+       <EditText
+           android:layout_marginTop="18dp"
+           android:background="#435863"
+           android:drawableLeft="@drawable/ic_action_name"
+           android:layout_marginLeft="80dp"
+           android:id="@+id/password"
+           android:layout_width="200dp"
+           android:layout_height="50dp"
+           android:hint="Password"
+           />
+       <Button
+           android:clickable="true"
+           android:id="@+id/button"
+           android:textAlignment="center"
+           android:text="Login"
+           android:drawableRight="@drawable/arrow_action_name"
+           android:layout_marginTop="35dp"
+           android:background="#2b615b"
+           android:layout_marginLeft="105dp"
+           android:layout_width="150dp"
+           android:layout_height="45dp" />
+
+
+   </LinearLayout>
+
+</RelativeLayout>
